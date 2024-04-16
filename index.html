@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Collage Web App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <center>
+            <a href="" id="link" download="myselfie.png"></a>
+            <h1>Collage Web App<img id="logo_img" src="559858b187f4f6a9592ef08d063c1d10.jpg"></h1>
+            <hr>
+            <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+            <div class="form-group">
+                <h3>Say, "Take My Selfie" For Making A Collage.</h3>
+                <label>Your Voice Output : </label>
+                <textarea class="form-control" id="textbox" readonly="true"></textarea>
+            </div>
+            <label> Click On The Buttons And Say, "Take My Selfie".</label>
+            <br><br>
+            <span>
+                <button class="btn btn-primary" onclick="start1()">Click For 1st Image</button>
+                <button class="btn btn-primary" onclick="start2()">Click For 2nd Image</button>
+                <button class="btn btn-primary" onclick="start3()">Click For 3rd Image</button>
+            </span>
+            <p>Press The Click Buttons One By One</p>
+            <label>Your Webcam : </label>
+            <div id="camera">
+
+            </div>
+            <br>
+            <label>Your Collage Will Display Here: </label>
+            <div id="result1">
+                
+            </div>
+            <br><br>
+            <span>
+                <div id="result2">
+                
+                </div>
+                <div id="result3">
+                    
+                </div>
+            </span>
+        </center>
+    </body>
+</html>
